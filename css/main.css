@@ -1,14 +1,12 @@
 :root {
-  --primary-text-color:#212121;
-  --title-text-color:#757575;
-  --accent-color:#2196F3;
-  --primary-white-color:#FFFFFF;
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196F3;
+  --primary-white-color: #FFFFFF;
 }
 
 .body {
-  background-color: #E5E5E5
-  
-  font-family: Roboto, sans-serif;
+  background-color: #E5E5E5;
 }
 
 .list {
@@ -30,7 +28,8 @@
   color: var(--primary-text-color);
 }
 
-.site-nav .link:hover, .link:focus {
+.site-nav .link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -42,29 +41,9 @@
   color: var(--accent-color);
 }
 
-/* HERO */
-.hero-title {
-  background: #2F303A;
-  color: var(--primary-white-color);
-}
-
-/* Section */
-.section-title {
-  color: var(--primary-text-color);
-}
-
-.section-title p {
-color: var(--title-text-color);
-}
-
-.button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
 /* подвал */
 .footer-page {
-  background-color:#2F303A;
+  background-color: #2F303A;
 }
 
 .logo-primary-white {
