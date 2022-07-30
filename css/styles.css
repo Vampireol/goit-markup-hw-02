@@ -1,13 +1,13 @@
 :root {
-  --primary-text-color:#212121;
-  --title-title-color:#757575;
-  --accent-color:#2196F3;
-  --primary-white-color:#FFFFFF;
+  --primary-text-color: #212121;
+  --title-title-color: #757575;
+  --accent-color: #2196F3;
+  --primary-white-color: #FFFFFF;
 
   /* Background color */
-  --background-header-color:#FFFFFF;
-  --background-footer-color:#2F303A;
-  --background-section-color:#F5F4FA;
+  --background-header-color: #FFFFFF;
+  --background-footer-color: #2F303A;
+  --background-section-color: #F5F4FA;
 }
 
 body {
@@ -20,18 +20,18 @@ body {
   letter-spacing: 0.03em;
 }
 
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .list {
   list-style: none;
@@ -76,7 +76,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover, .link:focus {
+.site-nav .link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -97,7 +98,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.auth-nav .link:hover, .link:focus {
+.auth-nav .link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
