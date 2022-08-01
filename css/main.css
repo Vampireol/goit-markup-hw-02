@@ -105,6 +105,24 @@ body {
 
 /* Главное меню портфолио */
 
+.button-current:hover,
+.button-current:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button-current {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+
+.section-menu .button-current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 
 .button-link:hover, .button-link:focus {
   background-color: var(--accent-color);
@@ -128,12 +146,6 @@ body {
 }
 
 .work-category {
-  color: var(--title-title-color);
-  font-size: 16px;
-  line-height: 1.87;
-}
-
-.work-description {
   color: var(--title-title-color);
   font-size: 16px;
   line-height: 1.87;

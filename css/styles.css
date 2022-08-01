@@ -129,10 +129,10 @@ body {
 
 /* Features */
 
-.section-features .features-title {
+.features-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.17;
 }
 
 .features-items {
