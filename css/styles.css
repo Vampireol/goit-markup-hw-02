@@ -114,13 +114,14 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
   .section-hero .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-weight: 700;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
@@ -133,6 +134,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
+  text-transform: uppercase;
 }
 
 .features-items {
@@ -159,6 +161,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
 }
 
 
@@ -166,12 +169,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
 }
 
 .worker-list {
   color: var(--title-title-color);
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
 }
 
 
@@ -187,11 +192,6 @@ body {
 
 .logo-primary-white:hover,
 .logo-primary-white:focus {
-  color: var(--accent-color);
-}
-
-.footer-page .link-map:hover,
-.link-map:focus {
   color: var(--accent-color);
 }
 
