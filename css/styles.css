@@ -1,13 +1,13 @@
 :root {
   --primary-text-color: #212121;
   --title-title-color: #757575;
-  --accent-color: #2196F3;
-  --primary-white-color: #FFFFFF;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 
   /* Background color */
-  --background-header-color: #FFFFFF;
-  --background-footer-color: #2F303A;
-  --background-section-color: #F5F4FA;
+  --background-header-color: #ffffff;
+  --background-footer-color: #2f303a;
+  --background-section-color: #f5f4fa;
 }
 
 body {
@@ -118,7 +118,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-  .section-hero .button {
+.section-hero .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: bold;
@@ -126,6 +126,61 @@ body {
   line-height: 1.87;
   cursor: pointer;
   letter-spacing: 0.06em;
+}
+
+/* Главное меню портфолио */
+
+.button-current:hover,
+.button-current:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button-current {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  text-align: center;
+}
+
+.section-menu .button-current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button-link:hover,
+.button-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  text-align: center;
+}
+
+.work-name {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-category {
+  color: var(--title-title-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.menu-list {
+  text-decoration: none;
 }
 
 /* Features */
@@ -164,7 +219,6 @@ body {
   text-align: center;
 }
 
-
 .worker-item {
   font-weight: 500;
   font-size: 16px;
@@ -179,10 +233,9 @@ body {
   text-align: center;
 }
 
-
 /* подвал */
 .footer-page {
-  background-color:#2F303A;
+  background-color: #2f303a;
 }
 
 .logo-primary-white {
@@ -203,7 +256,8 @@ body {
   text-decoration: none;
 }
 
-.link-connection:hover, .link-connection:focus {
+.link-connection:hover,
+.link-connection:focus {
   color: var(--accent-color);
 }
 
